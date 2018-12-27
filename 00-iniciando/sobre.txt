@@ -1,6 +1,6 @@
 //dart aula 1
 
-//identação de 2 caracteres, é preciso de um metodo main
+//identaï¿½ï¿½o de 2 caracteres, ï¿½ preciso de um metodo main
 void  main(){
   //para imprimir na tela use: print()
   // para declarar variavel use variaveis tipadas: 
@@ -10,4 +10,5 @@ void  main(){
 }
 
 //instalar usando o chocolatey
-
+dart2js -o script.js script.dart
+pub global activate webdev
