@@ -1,0 +1,13 @@
+//dart aula 1
+
+//identação de 2 caracteres, é preciso de um metodo main
+void  main(){
+  //para imprimir na tela use: print()
+  // para declarar variavel use variaveis tipadas: 
+  String nome = 'Yago';
+  print("hello world " + nome);
+  
+}
+
+//instalar usando o chocolatey
+
