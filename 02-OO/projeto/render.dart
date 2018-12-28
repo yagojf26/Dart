@@ -11,6 +11,10 @@ void main(List<String> args) {
   FormaGeometrica retangulo = new Retangulo(8, 6);
   FormaGeometrica circulo = new Circulo(5);
 
+  quadrado.tipo = 'Quadrado ';
+  retangulo.tipo = 'Retangulo ';
+  circulo.tipo = 'Circulo ';
+
   print(CriaPdf.render(quadrado));
   print(CriaPdf.render(retangulo));
   print(CriaPdf.render(circulo));
